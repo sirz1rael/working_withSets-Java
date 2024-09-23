@@ -22,4 +22,8 @@ public class UniqueNumberExtractor {
         else throw new Exception("No unique numbers there :(");
     }
 
+    public Set<Integer> removeDuplicates(List<Integer> numbers) {
+        return new HashSet<>(numbers);
+    }
+
 }
